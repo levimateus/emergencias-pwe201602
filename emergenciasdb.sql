@@ -14,7 +14,7 @@
 
 -- Dumping database structure for emergenciasdb
 CREATE DATABASE IF NOT EXISTS `emergenciasdb` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `emergenciasdb`;
+USE `emergenciasdb`; 
 
 -- Dumping structure for table emergenciasdb.funcionario
 CREATE TABLE IF NOT EXISTS `funcionario` (
