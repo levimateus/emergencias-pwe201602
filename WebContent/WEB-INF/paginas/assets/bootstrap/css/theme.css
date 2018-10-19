@@ -1,0 +1,97 @@
+body{
+	background: #FFFFFF;
+}
+
+/*MENU, FOOTER E HOME */
+.content-desktop, .content-mobile{
+	padding-top: 100px !important;
+	margin: 0 auto;
+}
+
+.content-mobile{
+	padding: 10%;
+}
+
+.panel-body{
+	background-color:#FFFFFF;
+	border-radius: 5%;
+	
+}
+
+.panel-default{
+	border-radius: 5%;
+}
+
+.panel-home{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: opacity .3s linear;
+}
+
+.panel-home:hover{
+	opacity:.3;
+	color: #006DF0;
+}
+
+.navbar-nav li a:hover {
+    border-bottom: 1px solid #006DF0;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.esq{
+	padding-left: 15%;
+}
+
+.dir{
+	padding-right: 15%;
+}
+/*.panel-footer{
+	bottom: 0;
+    width: 100%;
+    margin-top: 5%;
+}*/
+
+.panel-footer {
+   width: 100%;
+   margin-top: 2.4em;
+   margin-bottom: 2.4em;
+   float: left;
+   clear: both;
+}
+/*MENU, FOOTER E HOME */
+
+/*SOBRE*/
+
+.sobre-desktop, .sobre-mobile{
+	padding-top: 100px !important;
+	margin: 0 auto;
+}
+
+.sobre-mobile{
+	padding: 10%;
+}
+
+.sobre-desktop{
+	padding-left:20%;
+	padding-right:8%;
+} 
+
+.panel-sobre h2{
+	color: #006DF0;
+}
+
+.foto-eu{
+	border-radius: 1500px;
+}
+
+.descricao-eu p{
+	padding: 50px;
+}
+/*SOBRE*/
+
+textarea {
+	resize: none 
+}
